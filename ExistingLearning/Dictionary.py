@@ -54,3 +54,7 @@ d = {"tom":4654654, "joe":189464, "flip":35469646}
 d.clear()
 print(d)
 """
+
+# Dictionary: Best for representing a single "User" or "Role" record: {"user_id": 1, "role": "Admin"}.
+# List: Best for holding multiple records: [{"user_id": 1...}, {"user_id": 2...}].
+# Tuple: Best for fixed constants, like a list of permission levels that should never change during runtime: PERMISSIONS = ("READ", "WRITE", "DELETE").
